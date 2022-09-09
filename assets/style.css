@@ -1,0 +1,66 @@
+* {
+    font-family: "Arial", sans-serif;
+    background-color: black;
+}
+
+header {
+    color: whitesmoke;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    display: inline;
+}
+
+header nav {
+    float: none;
+}
+
+header nav  ul{
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+body h2 {
+    color: grey;
+    /* position: relative;
+    top: 75px; */
+}
+
+body img {
+    display: block;
+    /* position: relative;
+    top: 60px; */
+}
+
+footer h3{
+    color: grey;
+}
+
+footer div.form_element {
+    margin-bottom: 20px;
+}
+
+footer label {
+    color: grey;
+    display: block;
+}
+
+footer input, textarea, button {
+    border: 1px solid #ddd;
+    color: grey;
+    border-radius: 6px;
+    padding: 4px;
+}
